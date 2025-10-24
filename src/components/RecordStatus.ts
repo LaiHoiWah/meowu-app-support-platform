@@ -1,15 +1,15 @@
-const recordStatus = [{
+const RecordStatus = [{
   "code": "A",
   "description": "Active"
+},{
+   "code": "DP",
+   "description": "Deprecate"
 },{
   "code": "I",
   "description": "Inactive"
 },{
-  "code": "D",
-  "description": "Delete"
-},{
-  "code": "DP",
-  "description": "Deprecate"
+   "code": "D",
+   "description": "Delete"
 }];
 
-export default recordStatus;
+export default RecordStatus;
